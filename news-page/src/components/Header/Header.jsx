@@ -8,15 +8,15 @@ const Header = () => {
     return(
         <nav className="header">
             <span>HumanityNEWS</span>
-            <div>
+            <div className="header-nav">
                 <span>
-                    <Link to="/home">Home </Link>
+                    <Link to="/home" className="header-nav">Home </Link>
                 </span>
                 <span>
-                    <Link to="/form">Form </Link>
+                    <Link to="/form" className="header-nav">Form </Link>
                 </span>
                 <span>
-                    <Link to="/list">List </Link>
+                    <Link to="/list" className="header-nav">List </Link>
                 </span>
             </div>
         </nav>
